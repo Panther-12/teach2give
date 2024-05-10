@@ -111,13 +111,26 @@ nav > .logo-wrapper{
 }
 .new-wrapper{
     grid-area: n;
-    background-color: rgb(5, 5, 51);
+    background-color: rgb(2, 2, 26);
     justify-content: center;
     align-items: center;
     padding: 20px;
-    color: white;
+    color: rgb(231, 226, 226);
+    height: fit-content;
     h2{
         color: rgb(151, 133, 27);
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: x-large;
     }
+    .item{
+        margin-bottom: 20px;
+    }
+    .item > h3{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .item > p{
+        color: rgb(216, 213, 213);
+    }
+
 }
