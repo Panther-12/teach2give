@@ -85,6 +85,7 @@ nav > .logo-wrapper{
 
 .title-wrapper{
     grid-area: t;
+    height: fit-content;
     p{
         width: 70%;
         font-weight: bold;
@@ -94,6 +95,7 @@ nav > .logo-wrapper{
 
 .details-wrapper{
     grid-area: d;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     a{
@@ -107,6 +109,9 @@ nav > .logo-wrapper{
         padding: 15px;
         letter-spacing: 4px;
         color: white;
+    }
+    p{
+        color: #888787;
     }
 }
 .new-wrapper{
@@ -133,4 +138,55 @@ nav > .logo-wrapper{
         color: rgb(216, 213, 213);
     }
 
+}
+
+.bottom-wrapper{
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card > .card-image-wrapper{
+        height: 75px;
+        width: 75px;
+        margin-right: 20px;
+    }
+
+    .card > #img1{
+        background: url('./assets/images/image-retro-pcs.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .card > #img2{
+        background: url('./assets/images/image-top-laptops.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .card > #img3{
+        background: url('./assets/images/image-gaming-growth.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .card > .card-content-wrapper{
+        h1{
+            color: #888787;
+        }
+        p{
+            color: #888787;
+            margin-top: 5px;
+        }
+    }
 }
